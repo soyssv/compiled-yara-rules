@@ -1,37 +1,36 @@
-# Yara Rules for Personal Use:
+# YARA Rules for Personal Use
 
-Note: The .yac file is in a .rar archive due to GitHubs file size limitations.
+**Note:** The `.yac` file is in a `.rar` archive due to GitHub's file size limitations.  
 
+## Contents
 
-Contents:
+- **rules_metadata.db** – Contains metadata for each rule:  
+  - `rule_name` – YARA rule identifier  
+  - `score` – Severity/confidence score  
+  - `malware_type` – Malware type/family  
+  - `description` – Description of the rule  
 
-rules_metadata.db – containing metadata for each rule:
+---
 
-rule_name – Yara rule identifier
+## Archive Summary
 
-score – Severity/confidence score
+- **Total rules:** 135  
+- **Malware families:** 16  
 
-malware_type – Malware type/family
-
-description – description of the rule
-
-This archive includes:
-Total rules: 135
-Malware Families: 16
-
-apt        : 3 rules  (Severe)
-ransomware : 63 rules (Severe)
-botnet     : 4 rules  (Severe)
-stealer    : 4 rules  (Medium)
-trojan     : 12 rules (Medium)
-backdoor   : 38 rules (Medium)
-dropper    : 1 rules  (Medium:)
-worm       : 1 rules  (Severe)
-downloader : 2 rules  (Medium)
-adware     : 1 rules  (Low)
-rat        : 1 rules  (Severe)
-hacktool   : 1 rules  (Medium:)
-rootkit    : 1 rules  (Severe)
-miner      : 1 rules  (Medium)
-keylogger  : 1 rules  (Medium)
-
+| Malware Family | Number of Rules | Severity |
+|----------------|----------------|----------|
+| APT            | 3              | Severe   |
+| Ransomware     | 63             | Severe   |
+| Botnet         | 4              | Severe   |
+| Stealer        | 4              | Medium   |
+| Trojan         | 12             | Medium   |
+| Backdoor       | 38             | Medium   |
+| Dropper        | 1              | Medium   |
+| Worm           | 1              | Severe   |
+| Downloader     | 2              | Medium   |
+| Adware         | 1              | Low      |
+| RAT            | 1              | Severe   |
+| Hacktool       | 1              | Medium   |
+| Rootkit        | 1              | Severe   |
+| Miner          | 1              | Medium   |
+| Keylogger      | 1              | Medium   |
