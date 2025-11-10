@@ -3,8 +3,8 @@
 Note: The .yac file is in a .rar archive due to GitHubs file size limitations.
 
 Contents:
-rules_metadata.db – SQLite database containing metadata for each rule:
-rule_name – The Yara rule identifier
-score – Severity or confidence score
+rules_metadata.db – containing metadata for each rule:
+rule_name – Yara rule identifier
+score – Severity/confidence score
 malware_type – Malware type/family
-description – Optional description of the rule
+description – description of the rule
