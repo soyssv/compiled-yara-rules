@@ -1,6 +1,6 @@
-Yara Rules for Personal Use:
+# Yara Rules for Personal Use:
 
-⚠️ Note: The .yac file is in a .rar archive due to GitHubs file size limitations.
+Note: The .yac file is in a .rar archive due to GitHubs file size limitations.
 
 Contents:
 rules_metadata.db – SQLite database containing metadata for each rule:
