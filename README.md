@@ -1,5 +1,3 @@
-# YARA Rules for Malware detection/Av training
-
 **Note:** The `.yac` file is in a `.rar` archive due to GitHub's file size limitations.  
 
 ## Contents
